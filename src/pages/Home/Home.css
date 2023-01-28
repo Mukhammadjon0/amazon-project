@@ -1,0 +1,20 @@
+.computers_cards {
+  width: 100%;
+  padding: 10px;
+  display: grid;
+  grid-gap: 20px 10px;
+  grid-template-columns: repeat(4, auto);
+  margin-top: -50px;
+  position: absolute;
+  z-index: 999;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.8102591378348214) 23%,
+    rgba(255, 255, 255, 0.7570378493194152) 49%,
+    rgba(255, 255, 255, 0.6870098381149334) 76%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 0;
+}

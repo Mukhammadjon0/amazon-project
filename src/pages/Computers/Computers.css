@@ -1,0 +1,51 @@
+.computers_card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* padding: 20px; */
+  background-color: rgb(243, 243, 243);
+  border: 1px solid rgb(176, 176, 176);
+  border-radius: 5px;
+}
+.comp_info{
+    padding: 5px 20px;
+}
+.computers_card img {
+  width: 100%;
+  height: 250px;
+  cursor: pointer;
+}
+.computers_card h3{
+    margin-top: 20px;
+    color: #0F1111;
+    font-weight: 700px;
+    cursor: pointer;
+}
+.computers_card h3:hover{
+    color: #B12704;
+}
+.ratings{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.ratings img{
+    width: 100px;
+    height: 20px;
+}
+.ratings span{
+    color: #007185;
+    font-size: 14px;
+}
+.prices{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.computers_card p{
+    color: #B12704;
+    font-size: 14px;
+    margin-top: 15px;
+}
